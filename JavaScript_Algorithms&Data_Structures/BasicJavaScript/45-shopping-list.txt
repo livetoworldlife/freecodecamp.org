@@ -1,0 +1,1 @@
+var myList = [["Ersin",22],['Ahmet',44],["Ersin",22],['Ahmet',44],["Ersin",22],['Ahmet',44]];

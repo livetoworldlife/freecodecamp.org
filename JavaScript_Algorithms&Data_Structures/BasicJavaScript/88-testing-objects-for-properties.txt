@@ -1,0 +1,27 @@
+// Setup
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+
+function checkObj(checkProp) {
+ if (myObj.hasOwnProperty(checkProp)){
+   switch(checkProp){
+     case "gift":
+        return myObj.gift;
+        break;
+     case "pet":
+        return myObj.pet;
+        break;
+      case "bed":
+        return myObj.bed;
+        break;     
+   }
+   }else{
+     return "Not Found";
+   }
+ }
+
+
+checkObj("gift");
